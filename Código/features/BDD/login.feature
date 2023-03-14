@@ -9,3 +9,4 @@ Cenario: Login com sucesso
 Dado que o usuario queira se logar
 Quando o usuario digitar suas credenciais corretamente
 Entao deve aparecer na tela uma mensagem como esta 'Logado com sucesso'
+#teste
