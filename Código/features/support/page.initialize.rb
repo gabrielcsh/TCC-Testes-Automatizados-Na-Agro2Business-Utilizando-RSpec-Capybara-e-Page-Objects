@@ -4,4 +4,8 @@ module Page
     def login
         @login ||= LoginPage.new
     end
+
+    def cadastro 
+        @cadastro ||= CadastroPage.new
+    end
 end
