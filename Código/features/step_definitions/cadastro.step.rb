@@ -7,8 +7,7 @@ Quando('ele preencher todos os campos com informações validas') do
         CREDENCIAIS[:usuario_cadastro][:email],
         CREDENCIAIS[:usuario_cadastro][:telefone],
         CREDENCIAIS[:usuario_cadastro][:whatsapp],
-        CREDENCIAIS[:usuario_cadastro][:senha]
-    )
+        CREDENCIAIS[:usuario_cadastro][:senha])
 end
 
 Quando('ele não preencher um dos campos obrigatórios {string}, {string} e {string}') do |nome, email, senha| 
