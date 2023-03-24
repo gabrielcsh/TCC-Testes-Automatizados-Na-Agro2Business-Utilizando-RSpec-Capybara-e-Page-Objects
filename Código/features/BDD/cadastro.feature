@@ -1,3 +1,4 @@
+#ecoding: UTF-8
 #language: pt
 
 Funcionalidade: Sistema de cadastro
@@ -5,9 +6,11 @@ Para ter acesso completo ao sistema
 O usuario não cadastrado na Agro2Business
 Deseja criar uma conta no marketplace
 
+Contexto:
+Dado que o usuario queira se cadastrar
+
 @cadastro_sucesso
 Cenario: Cadastro completo com sucesso
-Dado que o usuario queira se cadastrar
 Quando ele preencher todos os campos com informações validas
 E aceitar os termos de uso
 E concluir seu cadastro
@@ -15,14 +18,12 @@ Então deve aparecer na tela uma mensagem como esta 'Tua conta foi criada com su
 
 @cadastro_incompleto
 Cenario: Cadastro incompleto sem aceitar os termos de uso
-Dado que o usuario queira se cadastrar
 Quando ele preencher todos os campos com informações validas
 E concluir seu cadastro
 Então deve aparecer na tela uma mensagem como esta 'Você precisa aceitar os termos para concluir teu cadastro.'
 
 @cadastro_incompleto
 Cenario: Cadastro incompleto sem aceitar os termos de uso
-Dado que o usuario queira se cadastrar
 Quando ele não preencher um dos campos obrigatórios "<nome>", "<email>" e "<senha>"
 E aceitar os termos de uso
 E concluir seu cadastro
