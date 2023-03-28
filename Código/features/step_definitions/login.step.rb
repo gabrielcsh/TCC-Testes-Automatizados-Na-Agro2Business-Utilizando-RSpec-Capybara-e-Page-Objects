@@ -9,3 +9,7 @@ end
 Quando('o usuario digitar um email inválido {string} ou uma senha inválida {string}') do |email, senha|
   login.usuarioLogin(email, senha)
 end
+
+Quando('tentar entrar') do
+  login.entrar
+end

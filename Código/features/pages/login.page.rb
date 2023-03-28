@@ -9,6 +9,9 @@ class LoginPage < SitePrism::Page
     def usuarioLogin (email, senha)
         email_campo.set(email)
         senha_campo.set(senha)
+    end
+
+    def entrar
         entrar_botao.click
     end
 end
