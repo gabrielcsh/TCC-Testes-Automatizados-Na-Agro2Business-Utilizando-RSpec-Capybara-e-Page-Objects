@@ -15,14 +15,7 @@ class AnuncioDescricaoPage < SitePrism::Page
 
     def preencherCampos
         titulo_campo.set('SAL PROTEINADO CAMPO 40 - PREMIX')
-        categoria_select.click
-        categoria_nutricao_animal.click
-        medida_select.click
-        medida_kg.click
-        tipo_estoque_limitado_botao.click
-        estoque_inicial_campo.set('10000')
         quantidade_minima_campo.set('1000')
-        consumidor_botao.click
         descricao_campo.set('Recomendado para: Cria, Recria e Terminação
 
             Suplemento mineral proteico para bovinos. Este produto corrige desequilíbrios nutricionais no período seco, estimulando a ingestão e digestão de alimentos fibrosos, favorecendo o rebanho a ganhar e não perder peso.

@@ -10,7 +10,7 @@ Contexto:
 Dado que o usuario esta logado
 E que o usuario deseja publicar um anuncio
 
-@anuncio_sucesso
+@anuncio_campos_obrigatorios
 Cenario: Cadastro de anuncio campos obrigatórios
 Quando ele preencher os campos obrigatorios da página de descrição 
 E for para a pagina de preços

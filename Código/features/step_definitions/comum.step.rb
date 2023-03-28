@@ -5,4 +5,5 @@ end
 Dado('que o usuario esta logado') do
     login.load
     login.usuarioLogin(CREDENCIAIS[:usuario_principal][:email], CREDENCIAIS[:usuario_principal][:senha])
+    login.entrar
 end
