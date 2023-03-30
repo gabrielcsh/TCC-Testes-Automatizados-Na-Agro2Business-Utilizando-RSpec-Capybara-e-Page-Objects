@@ -36,5 +36,5 @@ Quando('preencher todos os campos da página de preço') do
 end
   
 Quando('fazer o upload dos arquivos na página de imagens') do
-    imagens.carregarArquivos
+    imagens.carregarArquivos(CREDENCIAIS[:arquivo][:imagem], CREDENCIAIS[:arquivo][:documento])
 end
