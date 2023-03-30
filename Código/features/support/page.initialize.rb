@@ -4,4 +4,24 @@ module Page
     def login
         @login ||= LoginPage.new
     end
+
+    def cadastro 
+        @cadastro ||= CadastroPage.new
+    end
+
+    def descricao
+        @descricao ||= AnuncioDescricaoPage.new
+    end
+
+    def preco
+        @preco ||= AnuncioPrecoPage.new
+    end
+
+    def imagens
+        @imagens ||= AnuncioImagemPage.new
+    end
+
+    def resumo
+        @resumo ||= AnuncioResumoPage.new
+    end
 end
