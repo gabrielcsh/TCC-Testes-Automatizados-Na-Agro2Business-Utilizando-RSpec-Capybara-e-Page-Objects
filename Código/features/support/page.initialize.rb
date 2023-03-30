@@ -10,7 +10,7 @@ module Page
     end
 
     def descricao
-        @descricao ||=AnuncioDescricaoPage.new
+        @descricao ||= AnuncioDescricaoPage.new
     end
 
     def preco

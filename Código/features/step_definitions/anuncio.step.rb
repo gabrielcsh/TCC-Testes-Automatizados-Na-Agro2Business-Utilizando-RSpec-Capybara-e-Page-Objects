@@ -35,6 +35,6 @@ Quando('preencher todos os campos da página de preço') do
     preco.preencherTodosCampos
 end
   
-Quando('preencher todos os campos da página de imagens') do
+Quando('fazer o upload dos arquivos na página de imagens') do
     imagens.carregarArquivos
 end

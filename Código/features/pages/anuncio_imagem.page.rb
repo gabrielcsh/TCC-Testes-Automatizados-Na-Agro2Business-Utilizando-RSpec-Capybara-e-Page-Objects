@@ -6,8 +6,8 @@ class AnuncioImagemPage < SitePrism::Page
     element :enviar_arquivo_botao, :xpath, '/html/body/div[2]/div[2]/div[1]/div[3]/div/form/div[2]/div[5]/div/div[1]/div/div[2]/div/div[3]/div[1]/div[2]/button'
 
     def carregarArquivos
-        imagem_arquivo.attach_file('C:\Users\aninh\OneDrive\Documentos\GitHub\TCC\Código\features\support\download.png')
-        documento_arquivo.attach_file('C:\Users\aninh\OneDrive\Documentos\GitHub\TCC\Código\features\support\Arquivo.pdf')
+        imagem_arquivo.attach_file('C:\Users\aninh\OneDrive\Documentos\GitHub\TCC\Código\features\support\imagem.png')
+        documento_arquivo.attach_file('C:\Users\aninh\OneDrive\Documentos\GitHub\TCC\Código\features\support\documento.pdf')
         enviar_arquivo_botao.click
     end
 
