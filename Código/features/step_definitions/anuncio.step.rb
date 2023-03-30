@@ -1,9 +1,9 @@
 
-Dado('que o usuario deseja publicar um anuncio') do
+Dado('que o usuário deseja publicar um anúncio') do
     descricao.load
 end
   
-Quando('ele preencher os campos obrigatorios da página de descrição') do
+Quando('ele preencher os campos obrigatórios da página de descrição') do
     descricao.preencherCampos
 end
   
@@ -11,20 +11,19 @@ Quando('for para a página de preços') do
     descricao.proximo
 end
   
-Quando('preencher os campos obrigatorios da página de preço') do
+Quando('preencher os campos obrigatórios da página de preço') do
     preco.preencherCampos
-    
 end
   
 Quando('for para a página de imagens') do
     preco.proximo
 end
   
-Quando('finalizar o cadastro do anuncio') do
+Quando('finalizar o cadastro do anúncio') do
     imagens.finalizar
 end
   
-Quando('salvar o anuncio') do
+Quando('salvar o anúncio') do
     resumo.salvarAnuncio
 end
 

@@ -2,28 +2,28 @@
 #language: pt
 
 Funcionalidade: Sistema de cadastro
-Para ter acesso completo ao sistema
-O usuario não cadastrado na Agro2Business
+O usuário não cadastrado na Agro2Business
 Deseja criar uma conta no marketplace
+Para ter acesso completo ao sistema
 
 Contexto:
-Dado que o usuario queira se cadastrar
+Dado que o usuário queira se cadastrar
 
-@cadastro_sucesso
+@cadastro_completo
 Cenario: Cadastro completo com sucesso
-Quando ele preencher todos os campos com informações validas
+Quando ele preencher todos os campos com informações válidas
 E aceitar os termos de uso
 E concluir seu cadastro
 Então deve aparecer na tela uma mensagem como esta 'Tua conta foi criada com sucesso! Seja Bem Vindo à Agro2Business!'
 
 @cadastro_incompleto
 Cenario: Cadastro incompleto sem aceitar os termos de uso
-Quando ele preencher todos os campos com informações validas
+Quando ele preencher todos os campos com informações válidas
 E concluir seu cadastro
 Então deve aparecer na tela uma mensagem como esta 'Você precisa aceitar os termos para concluir teu cadastro.'
 
-@cadastro_incompleto
-Cenario: Cadastro incompleto sem aceitar os termos de uso
+@cadastro_invalido
+Cenario: Cadastro faltando infomrações
 Quando ele não preencher um dos campos obrigatórios "<nome>", "<email>" e "<senha>"
 E aceitar os termos de uso
 E concluir seu cadastro

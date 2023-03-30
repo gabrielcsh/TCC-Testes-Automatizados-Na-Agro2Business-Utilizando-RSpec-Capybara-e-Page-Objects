@@ -1,4 +1,5 @@
 class AnuncioDescricaoPage < SitePrism::Page
+    
     set_url '/announcements/new/build/description'
 
     element :titulo_campo, :id, 'announcement_title'
@@ -48,7 +49,6 @@ class AnuncioDescricaoPage < SitePrism::Page
             Observação: Após a efetivação da compra, o time de pós-venda da plataforma fará o contato com o comprador para alinhar os detalhes da entrega.
             
             Dúvidas? Utilize o box de perguntas abaixo.')
-     
     end
 
     def preencherTodosCampos

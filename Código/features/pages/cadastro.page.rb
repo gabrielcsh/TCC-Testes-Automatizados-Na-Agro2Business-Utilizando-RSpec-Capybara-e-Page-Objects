@@ -27,5 +27,4 @@ class CadastroPage < SitePrism::Page
     def criarConta
         criar_conta_botao.click
     end
-
 end

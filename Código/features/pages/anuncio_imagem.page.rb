@@ -1,4 +1,5 @@
 class AnuncioImagemPage < SitePrism::Page
+    
     element :finalizar_botao, :id, 'ann_build_images_next_btn' 
     element :imagem_arquivo, :xpath, '/html/body/div[2]/div[2]/div[1]/div[3]/div/form/div[2]/div[3]/div/div[1]/div/div[2]/div/div[2]/input'
     element :documento_arquivo, :xpath, '/html/body/div[2]/div[2]/div[1]/div[3]/div/form/div[2]/div[5]/div/div[1]/div/div[2]/div/div[2]/input'

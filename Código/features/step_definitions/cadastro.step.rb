@@ -1,8 +1,8 @@
-Dado('que o usuario queira se cadastrar') do
+Dado('que o usuário queira se cadastrar') do
     cadastro.load
 end
   
-Quando('ele preencher todos os campos com informações validas') do
+Quando('ele preencher todos os campos com informações válidas') do
     cadastro.usuarioCadastro(CREDENCIAIS[:usuario_cadastro][:nome],
         CREDENCIAIS[:usuario_cadastro][:email],
         CREDENCIAIS[:usuario_cadastro][:telefone],
