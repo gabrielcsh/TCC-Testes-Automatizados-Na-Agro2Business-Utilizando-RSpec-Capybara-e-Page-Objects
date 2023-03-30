@@ -48,8 +48,18 @@ class AnuncioDescricaoPage < SitePrism::Page
             Observação: Após a efetivação da compra, o time de pós-venda da plataforma fará o contato com o comprador para alinhar os detalhes da entrega.
             
             Dúvidas? Utilize o box de perguntas abaixo.')
+     
+    end
 
-        
+    def preencherTodosCampos
+        preencherCampos
+        categoria_select.click
+        categoria_nutricao_animal.click
+        medida_select.click
+        medida_kg.click
+        tipo_estoque_limitado_botao.click
+        estoque_inicial_campo.set('10000')
+        consumidor_botao.click
     end
 
     def proximo
