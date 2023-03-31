@@ -3,7 +3,10 @@
 CREDENCIAIS = {
     usuario_principal:{
         email: 'testetcc@ufms.br',
-        senha: '123456'
+        senha: '123456',
+        nome: 'Teste para o TCC',
+        cpf: '34833979900',
+        telefone: '67999999999'
     },
     usuario_cadastro:{
         nome: 'José dos Santos',

@@ -1,7 +1,7 @@
 #ecoding: UTF-8
 #language: pt
 
-Funcionalidade: Sistema de ciação de anúncio
+Funcionalidade: Sistema de criação de anúncio
 O usuário da Agro2Business
 Deseja publicar um anúncio
 Para ser um fornecedor da Agro2Business

@@ -24,4 +24,16 @@ module Page
     def resumo
         @resumo ||= AnuncioResumoPage.new
     end
+
+    def anuncio
+        @anuncio ||= AnuncioPage.new
+    end
+
+    def carrinho
+        @carrinho ||= CarrinhoPage.new
+    end
+
+    def pagamento
+        @pagamento ||= PagamentoPage.new
+    end
 end
