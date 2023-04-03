@@ -11,7 +11,7 @@ Dado que o usuário está logado
 E que o usuário deseja publicar um anúncio
 
 @anuncio_campos_obrigatorios
-Cenario: Cadastro de anúncio campos obrigatórios
+Cenario: Cadastro de anúncio preenchendo os campos obrigatórios
 Quando ele preencher os campos obrigatórios da página de descrição 
 E for para a página de preços
 E preencher os campos obrigatórios da página de preço 
