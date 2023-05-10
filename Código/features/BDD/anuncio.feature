@@ -1,7 +1,7 @@
 #ecoding: UTF-8
 #language: pt
 
-Funcionalidade: Sistema de ciação de anúncio
+Funcionalidade: Sistema de criação de anúncio
 O usuário da Agro2Business
 Deseja publicar um anúncio
 Para ser um fornecedor da Agro2Business
@@ -11,7 +11,7 @@ Dado que o usuário está logado
 E que o usuário deseja publicar um anúncio
 
 @anuncio_campos_obrigatorios
-Cenario: Cadastro de anúncio campos obrigatórios
+Cenario: Cadastro de anúncio preenchendo os campos obrigatórios
 Quando ele preencher os campos obrigatórios da página de descrição 
 E for para a página de preços
 E preencher os campos obrigatórios da página de preço 
