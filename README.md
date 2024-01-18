@@ -8,3 +8,5 @@
 - Victor Hugo Bustamonte Mendonça | RGA 2020.1907.019-4
 
 **Professor Orientador:** Dr. Carlos Alberto da Silva.
+
+**Link do Artigo:** https://github.com/gabrielcsh/TCC/blob/dev/TCC__Ana__Gabriel_e_Victor.pdf
