@@ -23,7 +23,7 @@ E concluir seu cadastro
 Então deve aparecer na tela uma mensagem como esta 'Você precisa aceitar os termos para concluir teu cadastro.'
 
 @cadastro_invalido
-Cenario: Cadastro faltando infomrações
+Cenario: Cadastro faltando informações
 Quando ele não preencher um dos campos obrigatórios "<nome>", "<email>" e "<senha>"
 E aceitar os termos de uso
 E concluir seu cadastro

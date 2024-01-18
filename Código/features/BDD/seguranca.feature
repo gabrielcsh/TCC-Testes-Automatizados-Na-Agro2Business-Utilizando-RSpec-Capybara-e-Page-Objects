@@ -22,5 +22,5 @@ Exemplos:
 | /leilao-reverso/vendas |
 | /desenvolvedor-de-negocios/applies |
 | /desenvolvedor-de-negocios/transactions |
-| /enderecos/501/edit |
+| /enderecos/502/edit |
 | /announcements/1/build/description |
